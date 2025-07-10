@@ -209,6 +209,7 @@ nav button a{
   padding-left: 24px;
   padding-top: 20px;
   border-radius: 14px;
+  box-shadow: 2px 2px 5px rgba(255, 165, 0, 0.3);
 }
 
 .review{
@@ -248,7 +249,71 @@ nav button a{
   color: rgba(37, 36, 50, 0.4);
 }
 
+/* Get In Touch */
 
+.get-in-touch{
+  /* border: 5px solid tomato; */
+  width: 1140px;
+  height: 632px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.touch-header{
+  margin: 200px auto;
+  margin-left: 0;
+  width: 528px;
+  height: 232px;
+  /* border: 4px solid red; */
+  font-size: 97px;
+  font-weight: bold;
+}
+
+.form{
+  /* border: 4px solid blue; */
+  width: 495px;
+  height: 490px;
+  margin: 70px auto;
+  margin-right: 0;
+}
+
+form label{
+  margin-left: 2px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+input[type="email"],input[type="text"]
+{
+   width: 465px;
+   height: 70px;
+   border-radius: 10px;
+   border: none;
+   padding-left: 32px;
+   /* overflow: hidden; */
+}
+textarea{
+  width: 433px;
+  height: 135px;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 32px;
+  resize: none;
+}
+
+.form-btn
+{
+  background-color: rgba(78, 71, 255, 1);
+  border: none;
+  width: 497px;
+  height: 62px;
+  border-radius: 10px;
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+}
 /* Hover */
 button:hover{
   background-color: orangered;
