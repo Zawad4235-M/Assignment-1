@@ -1,0 +1,112 @@
+/* Fonts And Shared */
+
+.inter-font-1 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
+
+.raleway-font-2 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
+/* CSS */
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: lightskyblue;
+}
+
+/* Header */
+header{
+  max-width: 1440px;
+  background-image: url(../Assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 698px;
+  margin: 0 auto;
+}
+/* Navbar */
+nav{
+  /* border: 5px solid tomato; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.logo{
+  width: 99px;
+  /* height: 48px; */
+  font-size: 34px;
+  font-weight: 700;
+  padding-left: 100px;
+  color: #4E47FF;
+  /* padding-top: 40px; */
+  padding-bottom: 15px;
+}
+nav button{
+  width: 132px;
+  height: 48px;
+  border-radius: 16px;
+  margin-right: 100px;
+  background-color: #4E47FF;
+  border: none;
+}
+nav button a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Banner */
+.banner{
+  margin: 0 auto;
+  /* border: 5px solid tomato; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 905px;
+  height: 237px;
+  margin-top: 158px;
+}
+.banner-heading{
+  font-size: 65px;
+  font-weight: bold;
+  width: 905;
+  height: 152px;
+  text-align: center;
+}
+.banner button{
+ margin-top: 40px;
+ border: none;
+ border-radius: 16px;
+ background-color: #4E47FF;
+ width: 174px;
+ height: 48px;
+}
+.banner button a{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
+
+
+/* Hover */
+button:hover{
+  background-color: orangered;
+  transition: calc(.5s);
+  cursor: pointer;
+}
